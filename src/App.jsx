@@ -3,6 +3,7 @@ import LifeCycleMethods from './components/LifeCycleMethods';
 import UseEffectHook from './components/UseEffectHook';
 import Users from "./components/Users";
 import { useState } from "react";
+import Timer from './components/Timer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       {/* {show && <LifeCycleMethods />} */}
       {/* {show && <UseEffectHook />} */}
       <Users />
+      <Timer />
     </div>
   );
 }
