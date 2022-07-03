@@ -35,7 +35,7 @@ const UseEffectHook = () => {
 
   //! ComponentDidMount
   // useEffect(() => {
-  //   console.log('Mounted'); //! fetch, asyn-await ,localStorage, setTimeout
+  //   console.log('Mounted'); //! fetch, async-await ,localStorage, setTimeout
   //   setTimeout(() => {
   //     alert('Data Fetched');
   //   }, 3000);
