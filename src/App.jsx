@@ -10,12 +10,12 @@ function App() {
   const [show, setShow] = useState(true);
   console.log(show);
   return (
-    <div className="container">
-      {/* <button className="btn btn-dark" onClick={()=> setShow(!show)} > Show </button> */}
-      {/* {show && <LifeCycleMethods />} */}
+    <div className="flex flex-col items-center justify-center">
+      <button className="btn bg-slate-300 " onClick={()=> setShow(!show)} > Show </button>
+      {show && <LifeCycleMethods />}
       {/* {show && <UseEffectHook />} */}
-      <Users />
-      <Timer />
+      {/* <Users /> */}
+      {/* <Timer /> */}
     </div>
   );
 }

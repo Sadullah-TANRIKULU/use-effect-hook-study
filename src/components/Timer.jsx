@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 class Timer extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +27,7 @@ class Timer extends Component {
     const { time } = this.state;
     console.log(time);
     return (
-      <div className="container m-4 text-center">
+      <div className="container m-4 text-center bg-yellow-200">
         {time > 0 ? <h1>Time:{time}</h1> : <h1>Timer Expired</h1>}
       </div>
     );

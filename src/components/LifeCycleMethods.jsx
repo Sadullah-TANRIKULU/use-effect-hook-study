@@ -49,9 +49,9 @@ class LifeCycleMethods extends React.Component {
     console.log('rendered');
     return (
       <div className="container text-center mt-4">
-        <h1 className="text-danger">LIFECYCLE METHODS</h1>
+        <h1 className="text-red-900">LIFECYCLE METHODS</h1>
         <h3>COUNT={this.state.count}</h3>
-        <button className="btn btn-info" onClick={this.handleInc}>
+        <button className="btn bg-rose-300 " onClick={this.handleInc}>
           INC
         </button>
       </div>
